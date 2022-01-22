@@ -1,20 +1,8 @@
 #include<iostream>
 using namespace std;
 
-void print(int arr[], int size, int first, int last){
-    for(int i = 0; i<size; i++)
-    cout << arr[i]<<" ";
-    cout<<endl;
-    cout<<"size "<<size<<endl;
-    cout<<"first "<<first<<endl;
-    cout<<"last "<<last<<endl;
-}
 
-
-int firstLastPos(int *arr, int size, int k){
-    int first=-1;
-    int last=-1;
-    print(arr,size,first,last);
+int firstLastPos(int *arr, int size, int k,int first, int last){
     //base case
     if(size==1 || size==0)
     return true;
@@ -24,30 +12,24 @@ int firstLastPos(int *arr, int size, int k){
     return first;
     }
     else
-    first++
+    first++;
 
     if(arr[size-1]==k){
     last=size-1;
     return last;
     }
     last--;
-
-   return firstLastPos(arr+1, size-2, k);     
-    // print(arr,size);
+   return firstLastPos(arr+1, size-2, k,first,last);     
 }
 
 int main () {
-int size;
-cin>>size;
-int *arr=new int[size];
-for(int i=0;i<size;i++)
-cin>>arr[i];
+int arr[]={1,2,2,3,4,5};
+int size = sizeof(arr)/sizeof(int);
 int k;
 cin>>k;
-
-firstLastPos(arr, size, k);
-
-
+  int first=0;
+    int last=size-1;
+firstLastPos(arr, size, k,first,last);
 
 return 0;
 }
