@@ -15,10 +15,9 @@
     while(i<=n){    
     int j=1;
         while(j<=n){
-            cout<<count<<" "; 
-            count++;
+            cout<<count++<<" "; 
             j++;
-        }   
+        }
         cout<<endl;
         i++;
     }

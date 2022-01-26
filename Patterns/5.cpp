@@ -1,3 +1,4 @@
+//Different from 4th
 // 1 
 // 2 3
 // 3 4 5
@@ -14,7 +15,7 @@ int row=1;
     int col=1;
     int  value=row;
         while(col<=row){ 
-            cout<<value<<" ";  
+            cout<<value<<" ";
             value++;
             col++;
             }

@@ -1,33 +1,24 @@
-//     *
-//    **
-//   ***
-//  ****
-// *****
-
-
+//  *
+//  * *
+//  * * *
+//  * * * *
+//  * * * * *
 
 #include<iostream>
-using namespace std;
+    using namespace std;
+    int main () {
+    int n;
+    cin>>n;
+    int row=1;
 
-int main(){
-int n;
-cin>>n;
-
-int row=1;  
-while(row<=n){
-        int space=n-row;
-    while (space){
-        cout<<" ";
-        space--;
-    }
+    while(row<=n){    
     int col=1;
-    while(col<=row){
-        cout<<"*";
-        col++;
+        while(col<=row){
+            cout<<"*"<<" ";
+           col++;
+        }   
+        cout<<endl;
+        row++;
     }
-    cout<<endl; 
-    row++;
-}
-
     return 0;
-}
+    }
