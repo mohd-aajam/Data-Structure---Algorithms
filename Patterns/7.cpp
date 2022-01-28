@@ -13,14 +13,13 @@
 using namespace std;
 
 int main(){
- int n;
-cin>>n;
+ int size;
+cin>>size;
 int row=1;
-    while(row<=n){
+    while(row<=size){
     int col=1;
-    
-        while(col<=n){ 
-            char ch='A'+row-1;
+        while(col<=row){ 
+            char ch='A'+col-1;
             // char ch='A'+col-1;
             cout<<ch<<" ";             
             col++;
