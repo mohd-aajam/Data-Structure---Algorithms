@@ -23,7 +23,6 @@ int main ()
 
     B obj2;
     obj2.display();// ye runtime pe pata lagega ke konsa function call hoga depending upon wo object kis class ka hai.
-                  //function will call depending upon which classs object we have created.
 
     return 0;
 }

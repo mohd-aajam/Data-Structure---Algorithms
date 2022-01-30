@@ -1,5 +1,4 @@
-/* Polymorphism Part- 1 (Function Overloading -->same name with different different parametors )*/
-
+/* Polymorphism Part- 1 (Function Overloading -->Same function name in a class with different no. of parametors or different types of parameters)*/
 // Polymorphism is a feature of OOPs that allows the object to behave differently in different conditions.
 // In C++ we have two types of polymorphism:
 // 1) Compile time Polymorphism – This is also known as static (or early) binding.
@@ -9,6 +8,9 @@ using namespace std; // this is namespace
 
 class Add{
     public:
+        int sum(string a, string b){
+            return 1;
+        }
         int sum(int num1, int num2){
             return num1+num2;
         }

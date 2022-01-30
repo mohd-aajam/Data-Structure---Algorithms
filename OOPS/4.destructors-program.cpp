@@ -1,7 +1,10 @@
 /*A destructor is automatically called when:
 1) The program finished execution.
 2) When a scope (the { } parenthesis) containing local variable ends.
-Destructors in C++ are members functions in a class that delete an object*/
+Destructors in C++ are members functions in a class that delete an object and free the memory
+Destructor Automatically calls for static allocation.
+*/
+
 
 #include<iostream>
 using namespace std; // this is namespace
