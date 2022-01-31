@@ -5,6 +5,7 @@
 // 1 2 3 4
 
 
+
 // line 25
 // 4 3 2 1
 // 4 3 2 1
@@ -16,16 +17,16 @@ using namespace std;
 int main () {
  int n;
  cin>>n;
-int i=1;
-while(i<=n){
-    int j=1;
-    while(j<=n){
-        cout<<j<<" "; 
-        // cout<<n-j+1<<" ";
-        j++;
+int row=1;
+while(row<=n){
+    int col=1;
+    while(col<=n){
+cout<<col<<" "; 
+// cout<<n-col+1<<" ";
+        col++;
     }
     cout<<endl;
-    i++;
+    row++;
 }
 return 0;
 }

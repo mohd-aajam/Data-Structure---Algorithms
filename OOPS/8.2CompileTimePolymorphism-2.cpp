@@ -1,6 +1,8 @@
 /* Operator Overloading
+In simple term we can assign particular work to particular operator.
+
 This means C++ has the ability to provide the operators with a special meaning for a data type, this ability is known as operator overloading
---> For example, we can overload an operator ‘+’ in a class like String so that we can concatenate two strings by just using +. 
+--> For example, we can overload an operator ‘+’ in a class like String so that we can concatenate two strings by just using +.
 */
 
 #include<iostream>
