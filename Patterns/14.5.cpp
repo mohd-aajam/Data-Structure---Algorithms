@@ -1,16 +1,10 @@
-// because line no. 28
-//       *****
-//        ****
-//         ***
-//          **
-//           *
+//  * * * * *
+//   * * * *
+//    * * *
+//     * *
+//      *
 
-// becaue line no.29
-// * * * * * 
-//  * * * *
-//   * * *
-//    * *
-//     *
+
 #include<iostream>
 using namespace std;
 
@@ -25,8 +19,7 @@ int main(){
       }
       int col=size-row+1;
       while(col>=1){
-          cout<<"*";
-        //   cout<<"* ";
+          cout<<"* ";
           col--;
       }
         cout<<endl;

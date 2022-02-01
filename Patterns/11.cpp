@@ -1,8 +1,8 @@
 
-// *****
-// ****
-// ***
-// **
+// * * * * *
+// * * * *
+// * * *
+// * *
 // *
 
 #include<iostream>
@@ -13,7 +13,7 @@ using namespace std;
     while(row<=n){
         int col=n-row+1;
         while (col>=1){
-            cout<<"*";            
+            cout<<"*"<<" ";
         col--;
         }
         cout<<endl;

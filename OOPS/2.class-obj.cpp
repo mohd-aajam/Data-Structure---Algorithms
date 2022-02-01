@@ -55,7 +55,6 @@ class aajam{
     string setaajam(string name){
        return aajam=name;
     }
-
 };
 
 int main(){
@@ -64,10 +63,6 @@ me.setaajam("i am aajam");
 cout<<me.getaajam();
 cout<<endl;
 cout<<me.mohd;
-
-
-    
-        
 
     return 0;
 }
