@@ -1,17 +1,17 @@
 /* Virtual Function */
-//accessing dereived classes function from base  class
+//accessing child class functions from parent  class
 #include<iostream>
-using namespace std; // this is namespace
+using namespace std;
 
-class base{
+class parent{
     public:
         virtual void print(){
-            cout<<"I'm from base class"<<endl;
+            cout<<"I'm from parent class"<<endl;
         }
-         void show(){
-            cout<<"I'm from base class"<<endl;
+        void show(){
+            cout<<"I'm from parent class"<<endl;
         }};
-class dereived : public base{
+class child : public parent{
     public:
         void print(){
             cout<<"I'm from derived class"<<endl;
@@ -21,12 +21,11 @@ class dereived : public base{
         }};
 
 int main (){
-    base* bb;  //make pointer object
-    dereived d;  //normal object
-    bb = &d;  //address of d assign to bptr
+    parent* prt;  //make pointer object
+    child chi;  //normal object
+    prt = &chi;  //address of chi assign to ptr
 
-    bb->print(); //print function is virtual.
-    bb->show(); //we didn't make virtual to base class function i.e.(show)(jo virtual function declare keya h sirf uska he address ye lega)
-
+    prt->print(); //print function is virtual.
+    prt->show(); //we didn't make virtual to parent class function i.e.(show)(It only takes the addrees of declared virtual function)
     return 0;
 }

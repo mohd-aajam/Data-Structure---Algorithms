@@ -1,5 +1,4 @@
 /* What is an encapsulation in C++?
-
 In normal terms Encapsulation is defined as wrapping up of data and function under a single unit called class.
 A Fully encapsulated class is that where all    Data member are marked as private
 

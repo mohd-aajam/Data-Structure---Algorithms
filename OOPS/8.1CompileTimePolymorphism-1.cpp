@@ -19,7 +19,7 @@ class Add{
         }
 };
 
-int main (){
+int main (){ 
     Add obj;
     cout<<"Output: "<<obj.sum(10,20)<<endl;
     cout<<"Output: "<<obj.sum(10,20,30)<<endl;

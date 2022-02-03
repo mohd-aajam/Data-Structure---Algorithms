@@ -1,7 +1,6 @@
 /* Multi Level Inheritance */
 // When one class inherits another class which is further inherited by another class, it is known as multi level inheritance in C++. 
 //C inherits B and B inherits A (A->B->C)
-
 #include<iostream>
 using namespace std;
 
@@ -26,8 +25,7 @@ class C : public B{
 };
 
 using namespace std; 
-int main ()
-{
+int main (){
     C obj;
     return 0;
 }

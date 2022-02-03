@@ -25,8 +25,7 @@ class C : public A, public B{
     }
 };
 
-int main ()
-{
+int main (){
     C obj;
     return 0;
 }

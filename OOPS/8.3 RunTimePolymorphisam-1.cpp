@@ -1,5 +1,5 @@
- /* Polymorphism Part- 2 (Function Overriding->same function name & signature in base and dereived class)*/ 
- //2) Runtime Polymorphism – This is also known as dynamic (or late) binding.
+ /* Polymorphism Part- 2 (Function Overriding->same function name & parameters in base and dereived class) it only depend on inheritance
+ 2) Runtime Polymorphism – This is also known as dynamic (or late) binding. */
 
 #include<iostream>
 using namespace std; // this is namespace

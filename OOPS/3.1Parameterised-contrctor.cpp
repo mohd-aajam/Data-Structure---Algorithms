@@ -1,28 +1,21 @@
 /* Parameterized Constructors:Typically, these arguments help initialize an object when it is created. To create a 
 parameterized constructor, simply add parameters to it.
 When you define the  constructor’s body, use the parameters to initialize the object.  */
-
 #include<iostream>
 using namespace std; // this is namespace
-
 class add{
     public:
     int ans;
-
     add(int num1, int num2){
         cout<<"Address of this pointer "<<this<<endl;
         this->ans = num1+num2;//this-> keyword is a pointer which stores the address of current object
         cout<<"ans "<<ans<<endl;
     }
     add(){//Default constructor
-        cout<<"Default const..."<<endl;
-        }
+        cout<<"Default const..."<<endl;}
     
-
     int print (){
-        cout<<"ans "<<ans<<endl;
-    }
-};
+        cout<<"ans "<<ans<<endl;}};
 
 int main (){
     add obj1(10,20); //Static object creation

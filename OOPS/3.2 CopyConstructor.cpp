@@ -2,7 +2,6 @@
 
 #include<iostream>
 using namespace std;
-
 class car{
   public:
   int fuel;
@@ -22,16 +21,12 @@ class car{
     void print(){
         cout<<fuel<<endl<<color<<endl;
     }
-    
 };
-
 int main(){
     car c(20, "red");
     c.print();
-    
     car d=c;// or car d(c) will do same thing
     d.print();
-    
     
     return 0;
 }

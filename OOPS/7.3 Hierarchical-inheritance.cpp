@@ -24,8 +24,7 @@ class C : public A{
     }
 };
 
-int main ()
-{
+int main (){
     C obj;
     return 0;
 }

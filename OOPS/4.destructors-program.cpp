@@ -4,10 +4,7 @@ A destructor is automatically called when:
 2) When a scope containing local variable ends.
 Destructor Automatically calls for static allocation.
 ->same as class name, no return type, no i/p parameters
-->Destructor will call only once for every object.
-*/
-
-
+->Destructor will call only once for every object.*/
 #include<iostream>
 using namespace std;
 
@@ -17,18 +14,15 @@ class HelloWorld{
     HelloWorld(){
         cout<<"Constructor is Called"<<endl;
     }
-
     //Desctructor
     ~HelloWorld(){
         cout<<"Destructor is Called"<<endl;
     }
-
     //Member Function
     void display(){
         cout<<"Hello World from Member Function"<<endl;
     }
 };
-
 int main ()
 {
     HelloWorld obj; //Object Created

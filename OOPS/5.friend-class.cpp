@@ -1,7 +1,6 @@
 // A friend class in C++ can access the private and protected members of the class in which it is declared as a
 // friend.
 
-
 #include<iostream>
 using namespace std; // this is namespace
 
