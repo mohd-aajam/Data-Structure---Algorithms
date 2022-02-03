@@ -1,7 +1,7 @@
 /* What is an encapsulation in C++?
 
-In normal terms Encapsulation is defined as wrapping up of data and function under a single unit.
-In Object Oriented Programming, Encapsulation is defined as binding together the data and the functions that manipulates them. 
+In normal terms Encapsulation is defined as wrapping up of data and function under a single unit called class.
+A Fully encapsulated class is that where all    Data member are marked as private
 
 Advantages-
 -> Data Hiding for Security
@@ -13,17 +13,14 @@ Advantages-
     using namespace std;
 
     class student{
-
     private:
-    string name;
-    int age;
-    int height;
-
+        string name;
+        int age;
+        int height;
     public:
-    int getAge(){
+        int getAge(){
         return this->age;
-    }
-    };
+}};
     
     int main () {   
         student s;

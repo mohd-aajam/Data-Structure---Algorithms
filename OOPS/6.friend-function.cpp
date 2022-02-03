@@ -1,7 +1,6 @@
 /* A friend function is a function that is specified outside a class but has the ability to access the class members' 
 protected and private data.  */
 
-
 #include <iostream>
 using namespace std;
 

@@ -1,13 +1,15 @@
-/*A destructor is automatically called when:
-1) The program finished execution.
-2) When a scope (the { } parenthesis) containing local variable ends.
-Destructors in C++ are members functions in a class that delete an object and free the memory
+/* Destructors in are members functions in a class that delete an object and free the memory for dynamic allocations
+A destructor is automatically called when:
+1) The program is about to finish its execution.
+2) When a scope containing local variable ends.
 Destructor Automatically calls for static allocation.
+->same as class name, no return type, no i/p parameters
+->Destructor will call only once for every object.
 */
 
 
 #include<iostream>
-using namespace std; // this is namespace
+using namespace std;
 
 class HelloWorld{
     public:

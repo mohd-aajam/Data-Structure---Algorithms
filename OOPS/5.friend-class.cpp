@@ -5,27 +5,25 @@
 #include<iostream>
 using namespace std; // this is namespace
 
-class XYZ{
+class ABC{
     private:
         char ch='A';
         int num = 11;
     public:
-        friend class ABC;
-
+        friend class XYZ;
 };
-
-class ABC {
+    
+class XYZ {
     public:
-    void disp(XYZ obj){
-        cout<<obj.ch<<endl;
-        cout<<obj.num<<endl;
+    void disp(ABC obj1){
+        cout<<obj1.ch<<endl;
+        cout<<obj1.num<<endl;
     }
 };
 
-int main ()
-{
-    ABC obj;
+int main (){
+    ABC obj1;
     XYZ obj2;
-    obj.disp(obj2);
+    obj2.disp(obj1);
     return 0;
 }
