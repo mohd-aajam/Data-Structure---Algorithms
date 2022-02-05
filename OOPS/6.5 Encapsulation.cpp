@@ -23,7 +23,6 @@ Advantages-
     
     int main () {   
         student s;
-        cout<<"sab sahi chal rha h"<<endl;
-
+        cout<<"Everything is working"<<endl;
     return 0;
     }

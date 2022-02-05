@@ -1,12 +1,10 @@
-// line 24
+// line 22
 // 1 2 3 4
 // 1 2 3 4
 // 1 2 3 4
 // 1 2 3 4
 
-
-
-// line 25
+// line 23
 // 4 3 2 1
 // 4 3 2 1
 // 4 3 2 1
@@ -21,8 +19,8 @@ int row=1;
 while(row<=n){
     int col=1;
     while(col<=n){
-cout<<col<<" "; 
-// cout<<n-col+1<<" ";
+// cout<<col<<" "; 
+cout<<n-col+1<<" ";
         col++;
     }
     cout<<endl;
