@@ -30,7 +30,7 @@ vector<int>aaj(5,123);  --> vector size will be a and every index assign value o
 vector<int>aaj(aajam)   -->all element of aajam will get copied into aaj
 aajam.size();           --> means what are the current elements inside to it
 aajam.capacity();    -->means how much memory is allocated to it  and capacity will be doubled when it is fulled
-aajam.push_back(123);;  --> use to insert element inside vector aajam
+aajam.push_back(123);  --> use to insert element inside vector aajam
 aajam.front(); and ajam.back();  --> use to print first and last element of vector
 aajam.pop_back();  --> use to delete last element of vector
 aajam.clear();   --> use to clear elements from vector (note capacity will be same as previous)
