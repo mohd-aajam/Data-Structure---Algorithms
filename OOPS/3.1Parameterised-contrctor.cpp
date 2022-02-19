@@ -2,7 +2,7 @@
 parameterized constructor, simply add parameters to it.
 When you define the  constructor’s body, use the parameters to initialize the object.  */
 #include<iostream>
-using namespace std; // this is namespace
+using namespace std; 
 class add{
     public:
     int ans;
@@ -22,9 +22,7 @@ int main (){
     // add *obj2 = new add(10,20); //Dynamic Object creation
     // obj1.print();  -->Works well. This
     add obj3; 
-    obj3.print();//Will give us error because we can only print using only that object by which we have passed our data HERE IT IS obj1
+    obj3.print();//Will give us error because we can only print using only that object by which we have passed our data here it is obj1
 
-// -->If we implement our own constructor then constructor created by compiler will  be dead and it shows error  -->  add obj4;
-    
     return 0;
 }

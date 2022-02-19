@@ -3,10 +3,9 @@ A class has the responsibility to determine which data member is to be visible o
 Using access specifiers we can do the same;
 
 ADVANTAGES
-->Only you can make changes to your data or functions.
+->Only we can make changes to our data or functions.
 ->It makes the application secure by not allowing others to see background details
 ->Increases the reusability of code
-
 */
 #include<iostream>
 using namespace std;
@@ -21,6 +20,5 @@ using namespace std;
  };
  
 int main () {
- 
 return 0;
 }

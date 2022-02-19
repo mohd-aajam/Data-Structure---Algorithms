@@ -1,4 +1,4 @@
-/* Destructors in are members functions in a class that delete an object and free the memory for dynamic allocations
+/* Destructors is a members functions in our class that delete an object and free the memory for dynamic allocations
 A destructor is automatically called when:
 1) The program is about to finish its execution.
 2) When a scope containing local variable ends.
@@ -23,8 +23,7 @@ class HelloWorld{
         cout<<"Hello World from Member Function"<<endl;
     }
 };
-int main ()
-{
+int main (){
     HelloWorld obj; //Object Created
     obj.display();
 

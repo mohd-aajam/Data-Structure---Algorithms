@@ -16,7 +16,7 @@ class car{
         cout<<"Copy constructor"<<endl;
         this->fuel = cc.fuel;
         this->color = cc.color;
-    }    
+    }
 
     void print(){
         cout<<fuel<<endl<<color<<endl;
@@ -25,7 +25,7 @@ class car{
 int main(){
     car c(20, "red");
     c.print();
-    car d=c;// or car d(c) will do same thing
+    car d=c;// car d(c) will do same thing
     d.print();
     
     return 0;

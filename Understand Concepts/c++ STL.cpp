@@ -28,7 +28,7 @@ VECTOR-->A dynamic sized array (when the it get fulled and we try to insert elem
 vector<int>aajam;   --> here we have created a vector of int type with name aajam
 vector<int>aaj(5,123);  --> vector size will be a and every index assign value of 123 like  --> {123,123,123,123,123} it assign 0 if second argument is nothing
 vector<int>aaj(aajam)   -->all element of aajam will get copied into aaj
-aajam.size();           --> means what are the current elements inside to it
+aajam.size();           -->total elements present inside this vector
 aajam.capacity();    -->means how much memory is allocated to it  and capacity will be doubled when it is fulled
 aajam.push_back(123);  --> use to insert element inside vector aajam
 aajam.front(); and ajam.back();  --> use to print first and last element of vector
